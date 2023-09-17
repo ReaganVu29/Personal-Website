@@ -76,7 +76,7 @@ nav ui li a:hover {
   position: relative;
 }
 
-.wrapper {
+.hero-wrapper {
   display: flex;
   justify-content: space-around;
   gap: 10rem;
@@ -124,7 +124,7 @@ h4 {
   border-radius: 30px;
   background-color: #f9004d;
   color: white;
-  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  /* box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585; */
   top: 6px;
   right: 6px;
 }
@@ -202,6 +202,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 5rem;
 }
 
 .title h2 {
@@ -316,6 +317,7 @@ footer {
   align-items: center;
   justify-content: center;
   bottom: 0;
+  margin-bottom: 5rem;
 }
 
 footer p:nth-child(1) {
@@ -371,4 +373,28 @@ body {
   justify-content: center;
   width: 100%;
   height: 100%;
+  background-color: #101010;
+}
+
+.skill-box {
+  display: flex;
+}
+
+.project-box {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1280px;
+}
+
+.about-wrapper {
+  width: 100vw;
 }
