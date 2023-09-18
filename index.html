@@ -3,9 +3,11 @@
 
 <head>
   <title>Portfolio website</title>
-  <link rel="stylesheet" type="text/css" href="style.css" <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" rel="noopener noreferrer" target="_blank" href="style.css">
+  <link rel="preconnect" rel="noopener noreferrer" target="_blank" href="https://fonts.googleapis.com">
+  <link rel="preconnect" rel="noopener noreferrer" target="_blank" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="noopener noreferrer" target="_blank"
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
 </head>
 
@@ -15,11 +17,11 @@
     <!-- <nav> -->
     <!-- <h2 class="logo">Personal<span> Portfolio</span></h2> -->
     <!-- <u1> -->
-    <!-- <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Contact Me</li> -->
+    <!-- <li><a rel="noopener noreferrer" target="_blank" href="#">Home</a></li>
+        <li><a rel="noopener noreferrer" target="_blank" href="#">About Me</a></li>
+        <li><a rel="noopener noreferrer" target="_blank" href="#">Contact Me</li> -->
     <!-- </u1> -->
-    <!-- <a href="#" class="btn">Contact Me</a> -->
+    <!-- <a rel="noopener noreferrer" target="_blank" href="#" class="btn">Contact Me</a> -->
     <!-- </nav> -->
     <div class="hero-wrapper">
       <div class="content">
@@ -27,7 +29,7 @@
         <h1>Reagan <span>Vu</span></h1>
         <!-- <h3>I'm an aspiring <span>web developer</span></h3> -->
       </div>
-      <img src="Vu-Reagan.jpg">
+      <img src="img/Vu-Reagan.jpg">
     </div>
 
   </div>
@@ -37,7 +39,7 @@
     <div class="about-wrapper">
       <div class="about">
         <div class="main">
-          <img src="Vu-Reagan.jpg">
+          <img src="img/Vu-Reagan.jpg">
           <div class="about-text">
             <h2>About <span>Me</span></h2>
             <!-- <h5>Aspiring</h5>
@@ -69,38 +71,41 @@
         <div class="skill-box">
 
           <div class="card">
-            <i class="fas fa-bars"></i>
-            <h5>Languages</h5>
-            <div class="pra">
+            <div class="card-content">
+              <i class="fas fa-bars"></i>
+              <h5>Languages</h5>
               <p>C++, Java, Python, SQL, HTML, CSS</p>
-
-              <P style="text-align: center;">
-                <!-- <a class="button" href="#">Read More</a> -->
-              </P>
+            </div>
+            <div class="skills"><img src="img/cpp_logo.jpg">
+              <img src="img/Java_logo_icon.jpg">
+              <img src="img/python-logo-only.jpg">
+              <img src="img/SQL.jpg">
+              <img src="img/HTML.jpg">
+              <img src="img/CSS.jpg">
             </div>
           </div>
 
           <div class="card">
-            <i class="fas fa-user"></i>
-            <h5>Frameworks</h5>
-            <div class="pra">
+            <div class="card-content">
+              <i class="fas fa-user"></i>
+              <h5>Frameworks</h5>
               <p>Markdown, Java Swing</p>
-
-              <P style="text-align: center;">
-                <!-- <a class="button" href="#">Read More</a> -->
-              </P>
             </div>
+            <div class="skills"><img src="img/markdown.jpg">
+              <img src="img/Java_logo_icon.jpg">
+            </div>
+
           </div>
 
           <div class="card">
-            <i class="fas fa-bell"></i>
-            <h5>Tools</h5>
-            <div class="pra">
+            <div class="card-content">
+              <i class="fas fa-bell"></i>
+              <h5>Tools</h5>
               <p>SQLite, Git, Figma</p>
-
-              <P style="text-align: center;">
-                <!-- <a class="button" href="#">Read More</a> -->
-              </P>
+            </div>
+            <div class="skills"><img src="img/SQLite.jpg">
+              <img src="img/Git.jpg">
+              <img src="img/Figma.jpg">
             </div>
           </div>
         </div>
@@ -110,75 +115,83 @@
         <h2>My Projects</h2>
         <div class="project-box">
 
-          <div class="card">
-            <i class="fas fa-bars"></i>
-            <h5>Personal Website</h5>
-            <div class="pra">
+          <div class="card project">
+            <div class="card-content">
+              <i class="fas fa-bars"></i>
+              <h5>Personal Website</h5>
               <p>September 2023</p>
-              <p>FILLER FILLER FILLER</p>
-
-              <P style="text-align: center;">
-                <a class="button" href="#">Read More</a>
-              </P>
+              <p class="project-caption">My personal website to showcase and highlight my skills and projects.</p>
+            </div>
+            <div class="projects">
+              <a rel="noopener noreferrer" target="_blank" href="https://reaganvu29.github.io/Personal-Website/"><img
+                  src="img/About_me.jpg"></a>
             </div>
           </div>
 
-          <div class="card">
-            <i class="fas fa-bars"></i>
-            <h5>Package Tracker</h5>
-            <div class="pra">
+          <div class="card project">
+            <div class="card-content">
+              <i class="fas fa-bars"></i>
+              <h5>Package Tracker</h5>
               <p>Febuary 2023</p>
-              <p>FILLER FILLER FILLER</p>
-
-              <P style="text-align: center;">
-                <a class="button" href="#">Read More</a>
-              </P>
+              <p class="project-caption">Won best overall project during 2023 TransportHacks. Full stack web application
+                that
+                utilizes shipping company APIs to track consumer packages.</p>
+            </div>
+            <div class="projects">
+              <a rel="noopener noreferrer" target="_blank" href="https://packagetracker.tech/"><img
+                  src="img/Package_tracker.jpg"></a>
             </div>
           </div>
 
-          <div class="card">
-            <i class="fas fa-user"></i>
-            <h5>Replayed</h5>
-            <div class="pra">
+          <div class="card project">
+            <div class="card-content">
+              <i class="fas fa-bars"></i>
+              <h5>Replayed</h5>
               <p>Febuary 2023</p>
-              <p>FILLER FILLER FILLER</p>
-
-              <P style="text-align: center;">
-                <a class="button" href="#">Read More</a>
-              </P>
+              <p class="project-caption">Full stack web application that incorporates quiz, game, and social aspects
+                with real time comment
+                system.</p>
+            </div>
+            <div class="projects">
+              <a rel="noopener noreferrer" target="_blank" href="https://replayedgg.vercel.app/"><img
+                  src="img/Replayed.jpg"></a>
             </div>
           </div>
 
-          <div class="card">
-            <i class="fas fa-user"></i>
-            <h5>Procrabstinator</h5>
-            <div class="pra">
+          <div class="card project">
+            <div class="card-content">
+              <i class="fas fa-bars"></i>
+              <h5>ProCRABstinator</h5>
               <p>January 2023</p>
-              <p>FILLER FILLER FILLER</p>
-
-              <P style="text-align: center;">
-                <a class="button" href="#">Read More</a>
-              </P>
+              <p class="project-caption">Desktop application that helps users stop procrastinating through systematic
+                encouragement of good
+                habits.</p>
+            </div>
+            <div class="projects">
+              <a rel="noopener noreferrer" target="_blank" href="https://procrabstinator.vercel.app/"><img
+                  src="img/Procrabstinator.jpg"></a>
             </div>
           </div>
 
-          <div class="card">
-            <i class="fas fa-bell"></i>
-            <h5>Ecology Keystone Network</h5>
-            <div class="pra">
+          <div class="card project">
+            <div class="card-content">
+              <i class="fas fa-bars"></i>
+              <h5>Ecology Keystone Network</h5>
               <p>October 2022</p>
-              <p>FILLER FILLER FILLER</p>
-
-              <P style="text-align: center;">
-                <a class="button" href="#">Read More</a>
-              </P>
+              <p class="project-caption">Web application allowing users to visualize and comprehend the scale of ongoing
+                global ecological
+                calamities.</p>
+            </div>
+            <div class="projects">
+              <a rel="noopener noreferrer" target="_blank" href="https://ecologykeystonenetwork.netlify.app/"><img
+                  src="img/Ecology_keystone_network.jpg"></a>
             </div>
           </div>
 
           <!--Contact Me-->
           <!-- <div class="contact-me">
           <p>Contact Me </p>
-          <a class="button-two" href="#">Let's talk</a>
+          <a class="button-two" rel="noopener noreferrer" target="_blank" href="#">Let's talk</a>
         </div> -->
         </div>
       </div>
@@ -186,14 +199,16 @@
   </div>
   <!--Footer Start-->
   <footer>
-    <p>Contact Me </p>
+    <p>Contact Me</p>
     <!-- <p>Reagan Vu</p> -->
     <div class="social">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-instagram-f"></i></a>
-      <a href="#"><i class="fab fa-dribbble-f"></i></a>
+      <a rel="noopener noreferrer" target="_blank" href="mailto:reaganvu29@gmail.com"><img class="contact"
+          src="img/email.jpg"></a>
+      <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/reagan-vu-66a922173/"><img
+          class="contact" src="img/linkedin.jpg"></a>
+      <a rel="noopener noreferrer" target="_blank" href="https://github.com/ReaganVu29"><img class="contact"
+          src="img/github.jpg"></a>
     </div>
-    <!-- <p class="end">CopyRight By Reagan Vu</p> -->
   </footer>
 </body>
 
